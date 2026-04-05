@@ -1,0 +1,420 @@
+p a {
+        color: #428bca;
+        text-decoration: underline;
+    }
+
+    #headline-img {
+        width: 55%;
+    }
+
+    select option {
+        margin: 40px;
+        background: #202020;
+        color: #fff;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+        font-size: 24px;
+    }
+
+    .btn-warning {
+        font-weight: bold;
+        background-color: #e43221;
+        border-color: #d51300;
+    }
+
+    .col-xs-1,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12,
+    .col-sm-1,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-lg-1,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12 {
+        padding-left: 12px;
+        padding-right: 4px;
+    }
+
+
+    .popMeUpGC {
+        width: 21em;
+        padding: 0.5em;
+        position: fixed;
+        right: 0px;
+        bottom: -67px;
+        background: #509bef;
+        border: 1px solid #c0c0c0;
+        color: #343434;
+    }
+
+    .popMeUpGC p,
+    .rotate {
+        font-size: 14px;
+        padding: 0 5px;
+        color: #fbfbfb;
+    }
+
+    .rotate.next {
+        opacity: 0;
+        width: 340px;
+        padding: 0.5em;
+        position: fixed;
+        right: 30px;
+        bottom: -67px;
+        background: ;
+    }
+
+    .closeit {
+        position: absolute;
+        right: 5px;
+        top: 0px;
+        display: block;
+        font-weight: bold;
+    }
+
+    .closeit a {
+        color: #fff;
+    }
+    </style>
+    <div class="popMeUpGC">
+        <div class="popMeUpGC">
+            <div class="popMeUpGC">
+                <span class="closeit"><a>x</a></span>
+                <p style="margin: 0px;"></p>
+            </div>
+        </div>
+    </div>
+    <style>
+    .pill-pane {
+        display: unset;
+    }
+
+    .navbar-toggle {
+        display: unset;
+    }
+
+    .label:empty {
+        display: unset;
+    }
+
+    .badge:empty {
+        display: unset;
+    }
+
+    .popover {
+        display: unset;
+    }
+
+    .modal {
+        display: unset;
+    }
+
+    .item {
+        display: unset;
+    }
+
+    .hide {
+        display: unset;
+    }
+
+    .hidden {
+        display: unset;
+    }
+
+    .hidden-xs {
+        display: unset;
+    }
+
+    tr.hidden-xs {
+        display: unset;
+    }
+
+    th.hidden-xs,
+    td.hidden-xs {
+        display: unset;
+    }
+
+    .hidden-xs.hidden-sm {
+        display: unset;
+    }
+
+    tr.hidden-xs.hidden-sm {
+        display: unset;
+    }
+
+    th.hidden-xs.hidden-sm,
+    td.hidden-xs.hidden-sm {
+        display: unset;
+    }
+
+    .hidden-xs.hidden-md {
+        display: unset;
+    }
+
+    tr.hidden-xs.hidden-md {
+        display: unset;
+    }
+
+    th.hidden-xs.hidden-md,
+    td.hidden-xs.hidden-md {
+        display: unset;
+    }
+
+    .hidden-xs.hidden-lg {
+        display: unset;
+    }
+
+    tr.hidden-xs.hidden-lg {
+        display: unset;
+    }
+
+    th.hidden-xs.hidden-lg,
+    td.hidden-xs.hidden-lg {
+        display: unset;
+    }
+
+    .hidden-sm {
+        display: unset;
+    }
+
+    tr.hidden-sm {
+        display: unset;
+    }
+
+    th.hidden-sm,
+    td.hidden-sm {
+        display: unset;
+    }
+
+    .hidden-sm.hidden-xs {
+        display: unset;
+    }
+
+    tr.hidden-sm.hidden-xs {
+        display: unset;
+    }
+
+    th.hidden-sm.hidden-xs,
+    td.hidden-sm.hidden-xs {
+        display: unset;
+    }
+
+    .hidden-sm.hidden-md {
+        display: unset;
+    }
+
+    tr.hidden-sm.hidden-md {
+        display: unset;
+    }
+
+    th.hidden-sm.hidden-md,
+    td.hidden-sm.hidden-md {
+        display: unset;
+    }
+
+    .hidden-sm.hidden-lg {
+        display: unset;
+    }
+
+    tr.hidden-sm.hidden-lg {
+        display: unset;
+    }
+
+    th.hidden-sm.hidden-lg,
+    td.hidden-sm.hidden-lg {
+        display: unset;
+    }
+
+    .hidden-md {
+        display: unset;
+    }
+
+    tr.hidden-md {
+        display: unset;
+    }
+
+    th.hidden-md,
+    td.hidden-md {
+        display: unset;
+    }
+
+    .hidden-md.hidden-xs {
+        display: unset;
+    }
+
+    tr.hidden-md.hidden-xs {
+        display: unset;
+    }
+
+    th.hidden-md.hidden-xs,
+    td.hidden-md.hidden-xs {
+        display: unset;
+    }
+
+    .hidden-md.hidden-sm {
+        display: unset;
+    }
+
+    tr.hidden-md.hidden-sm {
+        display: unset;
+    }
+
+    th.hidden-md.hidden-sm,
+    td.hidden-md.hidden-sm {
+        display: unset;
+    }
+
+    .hidden-md.hidden-lg {
+        display: unset;
+    }
+
+    tr.hidden-md.hidden-lg {
+        display: unset;
+    }
+
+    th.hidden-md.hidden-lg,
+    td.hidden-md.hidden-lg {
+        display: unset;
+    }
+
+    .hidden-lg {
+        display: unset;
+    }
+
+    tr.hidden-lg {
+        display: unset;
+    }
+
+    th.hidden-lg,
+    td.hidden-lg {
+        display: unset;
+    }
+
+    .hidden-lg.hidden-xs {
+        display: unset;
+    }
+
+    tr.hidden-lg.hidden-xs {
+        display: unset;
+    }
+
+    th.hidden-lg.hidden-xs,
+    td.hidden-lg.hidden-xs {
+        display: unset;
+    }
+
+    .hidden-lg.hidden-sm {
+        display: unset;
+    }
+
+    tr.hidden-lg.hidden-sm {
+        display: unset;
+    }
+
+    th.hidden-lg.hidden-sm,
+    td.hidden-lg.hidden-sm {
+        display: unset;
+    }
+
+    .hidden-lg.hidden-md {
+        display: unset;
+    }
+
+    tr.hidden-lg.hidden-md {
+        display: unset;
+    }
+
+    th.hidden-lg.hidden-md,
+    td.hidden-lg.hidden-md {
+        display: unset;
+    }
+
+    .visible-print {
+        display: unset;
+    }
+
+    .hidden-print {
+        display: unset;
+    }
+
+    tr.hidden-print {
+        display: unset;
+    }
+
+    th.hidden-print,
+    td.hidden-print {
+        display: unset;
+    }
+
+    .collapse {
+        display: unset;
+    }
+
+    .top ul.lenguages {
+        display: unset;
+    }
+
+    .table th.hidden-sm,
+    .table td.hidden-sm {
+        display: unset;
+    }
+
+    .da-slide .da-img {
+        display: unset;
+    }
+
+    .da-slide p {
+        display: unset;
+    }
+
+    .ulp-overlay {
+        display: unset;
+    }
+
+    .ulp-window {
+        display: unset;
+    }
+
+    .ulp-inline-window {
+        display: unset;
+    }
+
+    
